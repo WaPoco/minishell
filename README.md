@@ -1,2 +1,2 @@
 # minishell
-The objective of this project is for you to create a simple shell.
+A mini simulation of the Shell
