@@ -1,2 +1,3 @@
 # minishell
-A mini simulation of the Shell
+A small version of minishell.
+
