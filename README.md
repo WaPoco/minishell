@@ -1,4 +1,6 @@
 # minishell
-A small version of the classic shell of UNIX OS. Minishell supports the builtin commands ls, cd, env, unset and pwd and reacts to the original unix signals.
+A small version of the classic UNIX shell. Minishell supports the built-in commands like ls, cd, env, unset and pwd, reacts to the original unix signals and executes external commands.
+
+
 
 
