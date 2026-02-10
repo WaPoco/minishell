@@ -12,17 +12,6 @@
 
 #include "../include/minishell.h"
 
-/**
- *	Goal: To check if the file at the path* exists and is executable by the user
- *	path comes from the environment variables (env) already saved in shell->env
- * - using stat() is allowed by the subject 
-	Commands like ls, echo and cat are executable files in the path adresses 
-	They are ecxecuted using exceve() witch is allowed by the subject
-	
-	A good practice: we can make this func and the make_new_env_var() one func and
-	place it in the helpers and make it reusable
-*/
-
 char	*search_in_path(char *cmd, char *path)
 {
 	char	**paths;

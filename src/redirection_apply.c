@@ -10,10 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/**
- * Opens and applies redirections with dup2
- */
-
 #include "minishell.h"
 
 int	handle_heredoc(t_redirect *redir, t_shell *shell)

@@ -10,10 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/**
-* Expands all variables in tokens (except single-quoted)
-*/
-
 #include "../include/minishell.h"
 
 static void	process_token_loop(const char *token, char **result,

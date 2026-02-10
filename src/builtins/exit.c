@@ -12,15 +12,9 @@
 
 #include "../../include/minishell.h"
 
-/* 
-	To simiulate the original exit we have to write exit
-	and then call the exit function of c which is allowed by the subject
-	if we have extra arguments, shouldn't exit, only displaying an informational err
-*/
-
 int	builtin_exit(t_shell *shell, char **args)
 {
-	write(1, "exit\n", 5);
+	write(1, "exit👋\n", 9);
 	if (args[1])
 	{
 		if (!ft_isnumeric(args[1]))

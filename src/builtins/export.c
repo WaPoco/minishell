@@ -12,25 +12,6 @@
 
 #include "../../include/minishell.h"
 
-/* 
-	Tip:	export -- shows all exported variables (alphabethically sorted),
-	even if they have no value yet
-			and shows unset exported vars
-		vs.
-			env -- shows only variables that are currently set with a value
-			and doesn't show unset exported vars
-
-	Next steps:
-		1-	print_export should sort the array first and then print it
-			for this purpose we can use reproduced version of "qsort" and
-			add to our libft library
-			and then printing the sorted array behaved likewise
-			the original Shell does 
-		
-		2-	we might consider handling input like:
-			export VAR="value with spaces"
-*/
-
 static void	print_export(char **env)
 {
 	char	**sorted_array;

@@ -10,12 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-// src/env.c
-
 #include "../include/minishell.h"
 
-// To get the value of an environment var, or NULL if not found
-// however it was allowed to use "getenv" as an external func; anyway
 char	*get_env_value(char **env, const char *var)
 {
 	int		i;

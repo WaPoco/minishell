@@ -12,19 +12,6 @@
 
 #include "../include/minishell.h"
 
-/* 
-	What it does: It invokes coresponded func in different cases.
-	It return what the builin funcs return_ 1 in eror and 0 in succss
-	because it is implied in the "parse_and_execute" and at the end in the "main"
-			
-
-	Hint: dont forget to delete the debuger line
-
-	To Do:	Don't forget to modify echo to return an int (1 or 0)
-			dont forget to delete the debuger line
-
-*/
-
 int	execute_builtin(t_shell *shell, char **args)
 {
 	if (ft_strcmp(args[0], "echo") == 0)

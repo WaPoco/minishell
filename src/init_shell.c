@@ -12,6 +12,22 @@
 
 #include "../include/minishell.h"
 
+static void	print_banner(void)
+{
+	write(1, "🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚\n",
+		sizeof("🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚\n") - 1);
+	write(1, "🐚                                      🐚\n",
+		sizeof("🐚                                      🐚\n") - 1);
+	write(1, "🐚         Welcome to minishell         🐚\n",
+		sizeof("🐚         Welcome to minishell         🐚\n") - 1);
+	write(1, "🐚                                      🐚\n",
+		sizeof("🐚                                      🐚\n") - 1);
+	write(1, "🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚\n",
+		sizeof("🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚🐚\n") - 1);
+	write(1, "\n", 1);
+}
+
+
 void	check_for_oldpwd(t_shell *shell)
 {
 	char	*oldpwd;
@@ -42,4 +58,5 @@ void	init_shell(t_shell *shell, char **envp)
 	shell->stdin_save = -1;
 	shell->stdout_save = -1;
 	check_for_oldpwd(shell);
+	print_banner();
 }

@@ -12,13 +12,6 @@
 
 #include "../include/minishell.h"
 
-/**
- * Splits a line by spaces.
- * Later, we'll improve this to handle quotes.
- * 
- * "token" is a name refers to the user's command typed in the command line
- * and I try to keep this naming over the whole programm
- */
 static char	*space_alloc(char *line)
 {
 	char	*new;

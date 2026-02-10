@@ -10,10 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* 	To print all environment variables that have a '=' in them.
-	Not printing variables that have no "=" (compare with export)
-*/
-
 #include "../../include/minishell.h"
 
 int	builtin_env(char **env)

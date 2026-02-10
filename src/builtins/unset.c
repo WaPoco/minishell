@@ -12,13 +12,6 @@
 
 #include "../../include/minishell.h"
 
-/* 
-	what this function does?
-		it iterates over the args and pick the second arg
-		then iterates through the env-copy to find the matched var
-		then it frees that array's member and shifts rest members back to fill the hole
-*/
-
 static void	unset_env_var(t_shell *shell, int index)
 {
 	int	k;

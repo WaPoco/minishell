@@ -12,12 +12,6 @@
 
 #include "../../include/minishell.h"
 
-/**
- * To updates PWD and OLDPWD in the environment
- * (env struct we made it in the init shell copied from envp)
- * type "env" in the shell terminal to see vars and values
- */
-
 static void	update_pwd(t_shell *shell, const char *oldpwd)
 {
 	char	*cwd;

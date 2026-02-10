@@ -11,10 +11,8 @@
 /* ************************************************************************** */
 
 #include "../include/minishell.h"
-/**
- * Parses args to extract redirection info and remove them from args.
- */
-void	free_redirection(t_redirect *redir)
+
+ void	free_redirection(t_redirect *redir)
 {
 	if (redir->delimiter)
 		free(redir->delimiter);

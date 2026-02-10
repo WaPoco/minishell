@@ -10,15 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/**
- * Main function that parses the line and executes the command.
- * It splits the line we got it from the user in the minishell command line
- * Then, it executes the command in two ways; either is a builtin command like cd
- * 	or is a name of a executable file in the adresses ritten in the PATH variable
- * 	to see the invoronment variable PATH we can write env or export in the shell 
- * ---> it should be checked for memory leack
- */
-
 #include "../include/minishell.h"
 
 static void	exec_builtin_cmd(t_shell *shell, char **args, t_redirect *redir)

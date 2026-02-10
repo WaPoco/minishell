@@ -12,9 +12,6 @@
 
 #include "./include/minishell.h"
 
-// check whether add_history persist the history when the program restarts?
-	// It doesn't! should be kept?
-
 static int	check_heredoc(char *line)
 {
 	int	i;
@@ -47,10 +44,10 @@ int	main(int argc, char **argv, char **envp)
 	while (!shell.should_exit)
 	{
 		setup_signals();
-		line = readline("minishel$ ");
+		line = readline("🐚 minishell> ");
 		if (!line)
 		{
-			write(1, "exit\n", 5);
+			write(1, "👋\n", 2);
 			break ;
 		}
 		if (*line)
