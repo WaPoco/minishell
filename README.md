@@ -7,18 +7,18 @@ In this project we reimplemented a small version of the classic UNIX shell. The 
 
 ![Minishell](https://github.com/WaPoco/minishell/blob/main/minishell.png)
 
-## ✨ Features
+### ✨ Features
 - Working history (⬆️ and ⬇️)
 - Search and launch the right executable (based on the PATH variable or using a
 relative or an absolute path)
-- supports common builtin comands:
-    -cd with only a relative or absolute path
-    -echo with option of -n
-    -env with no options or arguments
-    -export with no options
-    -unset with no options
-    -pwd with no options
-    -exit with no options
+- supports common builtin commands:
+    cd with only a relative or absolute path
+     - echo with option of -n
+     - env with no options or arguments
+     - export with no options
+     - unset with no options
+     - pwd with no options
+     - exit with no options
 - Handle ’ (single quote) which should prevent the shell from interpreting the metacharacters in the quoted sequence
 - Handle " (double quote) which should prevent the shell from interpreting the metacharacters in the quoted sequence except for $ (dollar sign)
 - Pipes (| character). The output of each command in the pipeline is
