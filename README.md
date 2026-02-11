@@ -4,7 +4,13 @@ In this project we reimplemented a small version of the classic UNIX shell. The 
 ![Minishell](https://github.com/WaPoco/minishell/blob/main/minishell.png)
 
 # ✨ Features
-- supports common builtin comands cd, echo, env, export, unset, pwd and exit
+- Working histroy
+- Search and launch the right executable (based on the PATH variable or using a
+relative or an absolute path)
+- 
+- supports common builtin comands:
+    cd, echo, env, export, unset, pwd and exit
+- Handle ’ (single quote) which should prevent the shell from interpreting the metacharacters in the quoted sequence
 - executes exernal commands with execve
 - handles single quotes ```'``` but not specialcharacters (<,<<, >, >>, |, ...) in a quoted sequence
 - handles double quotes ```''``` but not specialcharacters (<,<<, >, >>, |, ...) except for the dollar sign ```$```
