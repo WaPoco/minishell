@@ -7,7 +7,7 @@ In this project we reimplemented a small version of the classic UNIX shell. The 
 
 ![Minishell](https://github.com/WaPoco/minishell/blob/main/minishell.png)
 
-## ✨ Requie
+## ✨ Features
 - Working history (⬆️ and ⬇️)
 - Search and launch the right executable (based on the PATH variable or using a
 relative or an absolute path)
@@ -37,7 +37,6 @@ foreground pipeline
 
 - Minishell supports the built-in commands like cd, echo, env, export, unset and pwd. On top it supports the original unix signals like bash and executes external commands.
 ...
-
 # 👥 Teamwork
 This was a group project (2 people).
 We had to work closely, divide responsibilities and integrate our work efficiently.
