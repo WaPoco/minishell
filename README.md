@@ -11,8 +11,9 @@ In this project we reimplemented a small version of the classic UNIX shell. The 
 - Working history (⬆️ and ⬇️)
 - Search and launch the right executable (based on the PATH variable or using a
 relative or an absolute path)
-- supports common builtin commands:
-    cd with only a relative or absolute path
+- Supports common builtin commands:
+
+     - cd with only a relative or absolute path
      - echo with option of -n
      - env with no options or arguments
      - export with no options
@@ -28,23 +29,21 @@ should expand to their values.
 - $? which should expand to the exit status of the most recently executed
 foreground pipeline
 - Handles ctrl-C, ctrl-D and ctrl-\ which should behave like in bash.
-- ...
+- Usage at most one global variable to indicate a received signal.
 - Redirections
     - ```<``` redirects input
     - ```>``` redirects output
     - ```<<``` heredoc mode
     - ```>>``` append mode
+Our own Libft Library was allowed to be used in this project.
+The rest of the features are described in the subject pdf file.
 
-- Minishell supports the built-in commands like cd, echo, env, export, unset and pwd. On top it supports the original unix signals like bash and executes external commands.
-...
-# 👥 Teamwork
-This was a group project (2 people).
-We had to work closely, divide responsibilities and integrate our work efficiently.
-
-# File structure
+# Instructions
 
 
-# How to install
+
+# Rescources
+- [Minishell subject]
 
 
 
