@@ -2,10 +2,7 @@
 In this project we reimplementated a small version of the classic UNIX shell. The main challenge was to parse userput and execute commands only using functions provided by POSIX UNIX labraries in C.
 
 # Demo
-<video width="640" controls>
-  <source src="https://github.com/WaPoco/minishell/blob/main/intro.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Demo video](https://github.com/WaPoco/minishell/blob/main/intro.mp4)
 
 ![Minishell](https://github.com/WaPoco/minishell/blob/main/minishell.png)
 # ✨ Features
