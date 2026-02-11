@@ -1,9 +1,5 @@
 # minishell
-In this project we reimplementated a small version of the classic UNIX shell. The main challenge was to parse userput and execute commands only using functions provided by POSIX UNIX labraries in C.
-
-# Demo
-![Demo video](https://github.com/WaPoco/minishell/blob/main/intro.mp4)
-
+In this project we reimplementated a small version of the classic UNIX shell. The main challenge was to parse userinput and execute commands only using functions provided by POSIX UNIX labraries in C.
 ![Minishell](https://github.com/WaPoco/minishell/blob/main/minishell.png)
 # ✨ Features
 - supports common builtin comands cd, echo, env, export, unset, pwd and exit
@@ -28,6 +24,7 @@ We had to work closely, divide responsibilities and integrate our work efficient
 
 
 # How to install
+
 
 
 
