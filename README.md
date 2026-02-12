@@ -30,18 +30,23 @@ should expand to their values.
 foreground pipeline
 - Handles ctrl-C, ctrl-D and ctrl-\ which should behave like in bash.
 - The code includes at most one global variable to indicate a received signal.
-- Redirections similar to those the bash shell:
+- Redirections similar to bash shell:
     - ```<``` redirects input
     - ```>``` redirects output
     - ```<<``` heredoc mode
     - ```>>``` append mode
-    
+
 Our own Libft Library was used in this project.
 The rest of the features are described in the subject pdf file.
 
 # Instructions
 
-
+To compile the project, run:
+```bash make
+```
+To run the shell, execute:
+```bash ./minishell
+```
 
 # Rescources
 - [Minishell subject]
