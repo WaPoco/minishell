@@ -43,12 +43,17 @@ The rest of the features are described in the subject pdf file.
 
 To compile the project, run:
 ```
-bash make
+make
 
 ```
 To run the shell, execute:
 ```
-bash ./minishell
+./minishell
+
+```
+To clean up the compiled files, run:
+```
+make fclean
 ```
 
 # Rescources
