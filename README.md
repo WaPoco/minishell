@@ -20,8 +20,8 @@ relative or an absolute path)
      - unset with no options
      - pwd with no options
      - exit with no options
-- Handle ’ (single quote) which should prevent the shell from interpreting the metacharacters in the quoted sequence
-- Handle " (double quote) which should prevent the shell from interpreting the metacharacters in the quoted sequence except for $ (dollar sign)
+- Handles ’ (single quote) which should prevent the shell from interpreting the metacharacters in the quoted sequence
+- Handles " (double quote) which should prevent the shell from interpreting the metacharacters in the quoted sequence except for $ (dollar sign)
 - Pipes (| character). The output of each command in the pipeline is
 connected to the input of the next command via a pipe.
 - Environment variables ($ followed by a sequence of characters) which
@@ -29,13 +29,14 @@ should expand to their values.
 - $? which should expand to the exit status of the most recently executed
 foreground pipeline
 - Handles ctrl-C, ctrl-D and ctrl-\ which should behave like in bash.
-- Usage at most one global variable to indicate a received signal.
-- Redirections
+- The code includes at most one global variable to indicate a received signal.
+- Redirections similar to those the bash shell:
     - ```<``` redirects input
     - ```>``` redirects output
     - ```<<``` heredoc mode
     - ```>>``` append mode
-Our own Libft Library was allowed to be used in this project.
+    
+Our own Libft Library was used in this project.
 The rest of the features are described in the subject pdf file.
 
 # Instructions
