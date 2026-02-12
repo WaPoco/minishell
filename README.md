@@ -53,10 +53,11 @@ To clean up the compiled files, run:
 make fclean
 ```
 
-# Rescources
+# Resources
 
 - [Minishell subject]
-- AI was used to help with the project, but the code was written by us and we understand how it works. We used AI to get suggestions on how to implement certain features and to get help with debugging. We also used AI to get suggestions on how to improve the code and to get help with writing the README file.
+- AI was used to generate code snippets and to get suggestions on how to implement certain features. 
+We also used AI to get suggestions on how to improve the code. Futhermore I used AI to write the README file.
 - [libft subject]
 
 
