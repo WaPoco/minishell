@@ -42,10 +42,13 @@ The rest of the features are described in the subject pdf file.
 # Instructions
 
 To compile the project, run:
-```bash make
+```
+bash make
+
 ```
 To run the shell, execute:
-```bash ./minishell
+```
+bash ./minishell
 ```
 
 # Rescources
