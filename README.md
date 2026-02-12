@@ -7,7 +7,7 @@ In this project we reimplemented a small version of the classic UNIX shell. The 
 
 ![Minishell](https://github.com/WaPoco/minishell/blob/main/minishell.png)
 
-### ✨ Features
+### Features
 - Working history (⬆️ and ⬇️)
 - Search and launch the right executable (based on the PATH variable or using a
 relative or an absolute path)
