@@ -56,8 +56,7 @@ make fclean
 # Resources
 
 - [Minishell subject]
-- AI was used to generate code snippets and to get suggestions on how to implement certain features. 
-We also used AI to get suggestions on how to improve the code. Futhermore I used AI to write the README file.
+- AI was used to generate code snippets and to get suggestions on how to implement certain features. Furthermore I used AI to write some parts of the README file.
 - [libft subject]
 
 
