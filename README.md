@@ -38,6 +38,14 @@ foreground pipeline
 
 For this project the libft library was used, which is a custom implementation of some standard C library functions. The functions implemented in libft are listed in the subject pdf file.
 The rest of the features are described in the subject pdf file.
+## Architecture:
+The project is organized into several modules, each responsible for a specific aspect of the shell's functionality. The main modules include:
+- **Initialization**: This module sets up the shell environment, including signal handling and terminal settings.
+- **Parsing**: This module is responsible for parsing user input, handling quotes, and expanding environment variables.
+- **Execution**: This module executes the parsed commands, handling built-in commands and external executables, as well as managing pipes and redirections.
+- **Utilities**: This module contains helper functions for string manipulation, error handling, and other common tasks.
+![Minishell](https://github.com/WaPoco/minishell/blob/main/architecture.png)
+
 # Instructions
 
 To compile the project, run:
