@@ -44,7 +44,7 @@ The project is organized into several modules, each responsible for a specific a
 - **Parsing**: This module is responsible for parsing user input, handling quotes, and expanding environment variables.
 - **Execution**: This module executes the parsed commands, handling built-in commands and external executables, as well as managing pipes and redirections.
 - **Utilities**: This module contains helper functions for string manipulation, error handling, and other common tasks.
-![Minishell-Diagramm](https://github.com/WaPoco/minishell/blob/main/architecture.png)
+![Minishell-Diagramm](https://github.com/WaPoco/minishell/blob/main/architecture.jpg)
 
 # Instructions
 
