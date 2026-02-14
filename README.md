@@ -5,7 +5,7 @@ of the 42 curriculum by vpogorel and hmote.
 # Description
 In this project we reimplemented a small version of the classic UNIX shell. The main challenge was to parse user input and execute commands only using POSIX-compliant C library functions.
 
-![Minishell](https://github.com/WaPoco/minishell/blob/main/intro.mp4)
+[Minishell demo video](https://github.com/WaPoco/minishell/blob/main/intro.mp4)
 
 ### Features
 - Working history (⬆️ and ⬇️)
