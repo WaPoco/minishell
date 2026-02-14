@@ -41,13 +41,20 @@ The rest of the features are described in the subject pdf file.
 ## Architecture:
 The project is organized into several modules, each responsible for a specific aspect of the shell's functionality. The main modules include:
 - **Initialization**: This module sets up the shell environment, including signal handling and terminal settings.
-- **Parsing**: This module is responsible for parsing user input, handling quotes, and expanding environment variables.
+- **Parsing&Tokanizer**: This module is responsible for parsing user input, handling quotes, and expanding environment variables and extracting the commands into tokens.
 - **Execution**: This module executes the parsed commands, handling built-in commands and external executables, as well as managing pipes and redirections.
 - **Utilities**: This module contains helper functions for string manipulation, error handling, and other common tasks.
 ![Minishell-Diagramm](https://github.com/WaPoco/minishell/blob/main/architecure.jpg)
 
 # Instructions
-
+Clone the repository:
+```
+git clone https://github.com/WaPoco/minishell minishell
+```
+Change to the minishell folder:
+```
+cd minishell
+```
 To compile the project, run:
 ```
 make
@@ -66,6 +73,7 @@ make fclean
 - [Minishell subject]
 - AI was used to generate code snippets and to get suggestions on how to implement certain features. Furthermore I used AI to write some parts of the README file.
 - [libft subject]
+
 
 
 
