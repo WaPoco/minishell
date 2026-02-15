@@ -5,7 +5,7 @@ of the 42 curriculum by vpogorel and hmote.
 # Description
 In this project we reimplemented a small version of the classic UNIX shell. The main challenge was to parse user input and execute commands only using POSIX-compliant C library functions.
 
-[Minishell demo video](https://github.com/WaPoco/minishell/blob/main/minishell-demo.gif)
+![Minishell demo video](https://github.com/WaPoco/minishell/blob/main/minishell-demo.gif)
 
 ### Features
 - Working history (⬆️ and ⬇️)
@@ -73,6 +73,7 @@ make fclean
 - [Minishell subject]
 - AI was used to generate code snippets and to get suggestions on how to implement certain features. Furthermore I used AI to write some parts of the README file.
 - [libft subject]
+
 
 
 
